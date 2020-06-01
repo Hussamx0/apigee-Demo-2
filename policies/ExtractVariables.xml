@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractVariables">
+    <DisplayName>ExtractVariables</DisplayName>
+    <Source>calloutResponse</Source>
+    <VariablePrefix>ExtractResponse</VariablePrefix>
+    <JSONPayload>
+        <Variable name="phone">
+            <JSONPath>$.41d19dff-8922-11e8-86ee-021e63aadcc4.phone</JSONPath>
+        </Variable>
+        <Variable name="gender">
+            <JSONPath>$.41d854c9-8922-11e8-86ee-021e63aadcc4.gender</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>

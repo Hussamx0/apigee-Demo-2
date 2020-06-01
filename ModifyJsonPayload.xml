@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="ModifyJsonPayload">
+    <Basepaths>/v1/MJpayload</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1589629227294</CreatedAt>
+    <CreatedBy>hussam.x0@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ModifyJsonPayload</DisplayName>
+    <LastModifiedAt>1589629227294</LastModifiedAt>
+    <LastModifiedBy>hussam.x0@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a190c66ff46dacb2ce7a3c315d6d47ee6c797cb9e6084ef3bacf7953a4e4217191533ce4cdd1be32911293e7d9dbcac83bf11324b4eb5d3d7a63e4c3200f4fa8</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-4</Policy>
+        <Policy>ExtractVariables</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>JavaScript-2</Policy>
+        <Policy>ServiceCallout</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+        <Resource>jsc://JavaScript-2.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
